@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url("//cdn.web-fonts.ge/fonts/mg-bitneon-hollow/css/mg-bitneon-hollow.min.css");
+@import url("//cdn.web-fonts.ge/fonts/mg-glaho-drunk/css/mg-glaho-drunk.min.css");
+
+#player{
+ 
+    background-image: url('img/preview_idle (1).gif');
+    background-size: cover;
+    position: absolute;
+    transform: rotate(0deg);
+    
+}
+
+#enemy{
+ 
+    background-image: url('img/48935152_317781015612934_1315873805062635520_n.png');
+    background-size: cover;
+    position: absolute;
+    transform: rotate(0deg);
+    
+}
+
+
+
+#hp{
+    position: absolute;
+    font-family: 'Indie Flower';
+    left: 1%;
+    color: rgb(0, 255, 0);
+    transition: 2s;
+    text-shadow:
+    0.025em 0.025em 0 yellow,
+    0.05em 0.05em 0 blue,
+    0.075em 0.075em 0 red,
+    0.2em 0.1em 0 black;
+    top: 1%;
+    
+}
+
+
+#bullets{
+    position: absolute;
+    font-family: "MG Glaho Drunk", sans-serif;
+    left: 1.5%;
+    color: rgb(77, 0, 0);
+    bottom: 1%;
+   
+    
+}
+
+#stage{
+    font-family: "MG Glaho Drunk", sans-serif;
+    position: absolute;
+    font-family: "MG Glaho Drunk", sans-serif;
+    right: 1.5%;
+    color: rgb(0, 0, 0);
+    top: 1%;
+}
+
+
+#div{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: rgba(255, 0, 0, 0);
+    z-index: 1000;
+}
+
+#medkit{
+    background-image: url('img/45568761-77558d00-b82b-11e8-9ad5-76d0c9e4d5ef.png');
+    background-size: cover;
+    position: absolute;
+    transform: rotate(0deg);
+    z-index: -2;
+}
+
+#zombieHealthDiv{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60px;
+    height: 10px;
+    background-color: red;
+    left: -100%;
+}
+
+#game{
+    display: none;
+}
+
+#zombieHealth{
+    position: relative;
+    border-radius: 10px;
+    width: 60px;
+    height: 10px;
+    background-color: rgb(0, 255, 64);
+    transform: translateX(-0px);
+}
+
+#welcome{
+    position: relative;
+    top: 40vh;
+    width: 50%;
+    background-color: rgba(0, 255, 242, 0.192);
+    border-radius: 50px;
+    font-family: "MG Glaho Drunk", sans-serif;
+}
+
+
+button{
+    font-family: "MG Glaho Drunk", sans-serif;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+#gameover{
+    position: relative;
+    top: 40vh;
+    width: 50%;
+    background-color: rgba(255, 0, 0, 0.192);
+    border-radius: 50px;
+    font-family: "MG Glaho Drunk", sans-serif;
+    z-index: 100000000000000000;
+    display: none;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+   
+}
+
+html {
+    height: 100vh;
+  
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+#bullet{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url('img/Cartr9mmLuger.png');
+    background-size: cover;
+    z-index: -1;
+    left: -10%;
+}
+
+#bullet2{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url('img/Cartr9mmLuger.png');
+    background-size: cover;
+    z-index: -1;
+    left: -10%;
+}
+
+#bullet3{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url('img/Cartr9mmLuger.png');
+    background-size: cover;
+    z-index: -1;
+    left: -10%;
+}
+
+#bullet4{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url('img/Cartr9mmLuger.png');
+    background-size: cover;
+    z-index: -1;
+    left: -10%;
+}
+
+#bullet5{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url('img/Cartr9mmLuger.png');
+    background-size: cover;
+    z-index: -1;
+    left: -10%;
+}
+
+#bullet6{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url('img/Cartr9mmLuger.png');
+    background-size: cover;
+    z-index: -1;
+    left: -10%;
+}
+
+#bullet7{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-image: url('img/Cartr9mmLuger.png');
+    background-size: cover;
+    z-index: -1;
+    left: -10%;
+}
+
+
+
